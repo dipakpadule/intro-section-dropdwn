@@ -1,0 +1,144 @@
+$Almost-White: hsl(0, 0%, 98%);
+$Medium-Gray: hsl(0, 0%, 41%);
+$Almost-Black: hsl(0, 0%, 8%);
+
+$font-family: 'Epilogue', sans-serif;
+
+.intro-section{
+    margin: 1.32rem 2.5rem 0rem 2.5rem;
+    a:hover, button:hover{
+        cursor: pointer;
+    }
+    .is-navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .is-logo{
+            display: flex;
+            align-items: center;
+            img{
+                margin-right: 1.3rem;
+            }
+            a{
+                text-decoration: none;
+                margin-left: 2.5rem;
+                color: $Medium-Gray;
+            }
+            img{
+                margin-bottom: 0.1rem;
+            }
+            .dropdown{
+                position: relative;
+                .fdrop{
+                    border-radius: 0.63rem;
+                    padding: 1.37rem;
+                    background: $Almost-White;
+                    display: none;
+                    position: absolute;
+                    top: 1.9rem;
+                    left: -2rem;
+                    ul{
+                        display: flex;
+                        flex-direction: column;
+                        li{
+                            margin-top: 0.7rem;
+                            list-style: none;
+                            img{
+                                margin-right: -1.5rem;
+                            }
+                        }
+                    }
+                }
+                .fdrop:hover{
+                    cursor: pointer;
+                }
+                .cdrop{
+                    border-radius: 0.63rem;
+                    padding: 1.37rem;
+                    background: $Almost-White;
+                    display: none;
+                    position: absolute;
+                    top: 1.9rem;
+                    left: 9.5rem;
+                    ul{
+                        display: flex;
+                        flex-direction: column;
+                        li{
+                            margin-top: 0.7rem;
+                            margin-left: -1.5rem;
+                            list-style: none;
+                        }
+                    }
+                }
+                .down{
+                    display: block;
+                }
+            }
+        }
+        .is-login-btn{
+            button{
+                border: none;
+                background: none;    
+                margin-left: 2.60rem;
+            }
+            #reg{
+                width: 6.5rem;
+                height: 2.62rem;
+                border-radius: 0.85rem;
+                border: 1px solid $Almost-Black;
+            }
+        }
+    }
+    //
+
+    .is-main{
+        margin: 4.19rem 5.62rem 8.12rem 7.81rem;
+        display: flex;
+        .is-main-info{
+            width: 41.57rem;
+            padding-right: 9.5rem;
+            padding-top: 4.62rem;
+            strong{
+                font-size: 4.895rem;
+                color: $Almost-Black;
+                span{
+                    font-size: 6rem;
+                }
+            }
+            p{
+                margin-top: 4.37rem;
+                // height: 4.62rem;
+                font-size: 1.31rem;
+                list-style: 1.5rem;
+            }
+            button{
+                margin-top: 3.5rem;
+                width: 10.187rem;
+                height: 3.5rem;
+                border: none;
+                border-radius: 1rem;
+                background: $Almost-Black;
+                color: $Almost-White;
+            }
+            button:hover{
+                cursor: pointer;
+                background: $Almost-White;
+                color: $Almost-Black;
+            }
+            .clients{
+                margin-top: 6.75rem;
+                img{
+                    margin-right: 2.3rem;
+                }
+            }
+        }
+        .is-main-bg{
+            width: 30rem;
+            height: 40rem;
+            background: url("./images/image-hero-desktop.png");
+            background-repeat: no-repeat;
+            background-size: 30rem 40rem;
+        }
+    }
+}
+

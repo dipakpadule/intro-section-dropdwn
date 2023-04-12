@@ -1,0 +1,19 @@
+$Almost-White: hsl(0, 0%, 98%);
+$Medium-Gray: hsl(0, 7%, 97%);
+$Almost-Black: hsl(0, 0%, 8%);
+
+$font-family: 'Epilogue', sans-serif;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: $font-family;
+  min-height: 100vh;
+  font-size: 1.12rem;
+  // display: flex;
+  // justify-content: center;
+  background: $Medium-Gray;
+}
